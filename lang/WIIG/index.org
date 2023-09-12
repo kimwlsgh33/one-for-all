@@ -1,0 +1,21 @@
+#+title: Index
+
+* Writing an Interpreter In GO
+** [[file:./intro.org][Intro]]
+** [[file:./TMPL.org][The Monkey Programming Language & Interpreter]]
+** [[file:./why_go.org][Why Go?]]
+** [[file:./lexing.org][Lexing]]
+** [[file:./def_tokens.org][Defining Our Tokens]]
+** [[file:./parser.org][Parser]]
+
+* The way i like in this book.
+/Skip that part not because it's too complex, but because it would take away from the essential simpleness, making it harder to understand/
+
+Suited to our =needs=
+
+To see the benefits they provide.
+To see the drawbacks they have.
+To see the problems they solve.
+
+* Referece
+[[file:../index.org][Books]]

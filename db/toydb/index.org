@@ -1,0 +1,24 @@
+#+title: ToyDB
+
+* Repo
+https://github.com/erikgrinaker/toydb
+
+* Architecture
+** Node component
+[[file:~/Downloads/cs/toydb-architecture.svg]]
+*** Storage engine
+store data and manages transactions(SQL data), on disk and in memory
+
+1. simple key/value storage on the bottom
+2. [[file:../../../../cs/mvcc.org][MVCC]] adds [[file:../../../../cs/acid.org][ACID]] trnsactions by wrapping the key/value store
+3. SQL storage provide basic *CRUD operation* on tables, rows, and indexes.
+
+*** [[file:../../../cs/consensus.org][Raft consensus]] engine
+handles cluster coordination and state machine replication
+
+1. Raft state machine interface wrap SQL storage engine and allow it to be managed by the Raft consensus engine
+2. The Raft node
+
+*** SQL engine
+parses, plans, and execute SQL statments for clients
+

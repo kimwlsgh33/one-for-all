@@ -1,0 +1,63 @@
+#+title: One for all
+
+* One For All
+** What want to make
+*** Virtual Processing or Virtual Threading ( Inspired by Erlang )
++ For thousand of websockets => full interactive, effective and reasonable webpage
++ Using concurrency, parallel without verbose boilerplate as async, and without any performance cost.
+
+*** Using javascript without javascript
++ We need javascript, whereas don't like syntax.
+
+*** Implement all of services, by one language
++ Too many language, too many learning.
++ Create the wheel, but first we need to use the past one. Code compatible and anternating => Refactor purpose language
+
+*** Fault-tolerant
++ We are lazy, so we need ability to choose when we code.
+
+*** Multi-model Database (General purpose)
++ In modern programing world, we need multiple database even if our service's main purpose is one.
++ We need general purpose database.
+
+** What need to make
+*** TODO [#B] Understand about Virtual Machine for Virtual Processing and Fault-tolerant
+**** [ ] Search learning documents and list up
+***** How long?
+***** What through?
+**** [ ] Find who knows this well
+***** How long?
+***** What through?
+**** [ ] Cloning exist virtual machine briefly
+***** How long?
+***** What through?
+
+*** TODO [#B] Use JS Without JS
+**** [ ] Find who already doing this
+***** How long?
+***** What through?
+**** [ ] Search learning documents and list up
+***** How long?
+***** What through?
+**** [ ] Start HTMX project
+***** How long?
+***** What through?
+
+*** TODO [#B] Understanding programming language's main structure and control flow (by Zig?) => for OFA
+**** [ ] Cloning interpreter & compiler in GO => [[file:./lang/index.org][WIIG & WCIG]]
+***** How long?
+Until the end
+***** What through?
+**** [ ] Search learning documents and list up
+***** How long?
+***** What through?
+
+*** TODO [#B] Understanding database's main structure and modern model's purposes => Multi model database
+**** [ ] Search learning documents and list up
+***** How long?
+***** What through?
+**** [ ] Cloning exist database briefly
+***** How long?
+***** What through?
+****** [[file:./db/index.org][toydb]] in Rust
+**** [ ] Contribute with opensource database project
