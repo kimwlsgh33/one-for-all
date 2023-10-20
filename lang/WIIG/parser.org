@@ -61,3 +61,12 @@ It repeatedly advances the tokens and checks the current token to decide what to
 
 * Why don't we mock or stub out?
 source code is more readable and understandable
+* Terminology
+** prefixParseFns => nuds
+** infixParseFns => leds
+* Left- and Right-binding Power (Which one it the higher precedence?)
+
+parsing : from left to right
+
+result = num-- : `=` > num
+result = --num : `=` < `--`
